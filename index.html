@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mantle · Support</title>
+  <meta name="description" content="Support for Mantle, the daily-phrase iPhone app.">
+  <style>
+    :root {
+      --paper: #f5f1ea;
+      --ink: #1a1814;
+      --ink2: #3a342c;
+      --muted: #8b847a;
+      --accent: #c05430;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink); }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+      line-height: 1.55;
+      padding: 56px 24px;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 700;
+      font-size: 40px;
+      margin: 0 0 8px;
+      letter-spacing: -0.01em;
+    }
+    .eyebrow {
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 11px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+      margin: 40px 0 8px;
+      letter-spacing: -0.005em;
+    }
+    p, li { color: var(--ink2); font-size: 16px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .tagline { color: var(--muted); margin-top: 0; font-size: 15px; }
+    .footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(0,0,0,0.08);
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="eyebrow">Support</div>
+  <h1>Mantle</h1>
+  <p class="tagline">A phrase, carried with you.</p>
+
+  <h2>Get in touch</h2>
+  <p>
+    Email <a href="mailto:viry.gomez@gmail.com">viry.gomez@gmail.com</a> for bug
+    reports, feature requests, or anything else. Replies usually land within a
+    few days.
+  </p>
+
+  <h2>Common questions</h2>
+
+  <p><strong>The widget isn't updating.</strong>
+  iOS schedules widget refreshes on its own — Mantle requests a refresh every
+  time you change a setting or rotate manually, but the system may delay it by
+  a few minutes. Locking and unlocking your phone usually nudges it.</p>
+
+  <p><strong>I changed my iPhone's language and my phrases didn't change.</strong>
+  Mantle's library translates between English and Spanish automatically the
+  next time the app opens after a language switch. If you don't see the new
+  language, force-quit Mantle and relaunch it.</p>
+
+  <p><strong>Where are my custom phrases stored?</strong>
+  Entirely on your device, inside the app's group container. Mantle has no
+  account system, no cloud sync, and no remote backup — back up your iPhone
+  to keep your library safe.</p>
+
+  <p><strong>Can I share a phrase as an image?</strong>
+  Yes. Tap the share icon on the home screen and choose your destination —
+  Mantle generates a Story-shaped image themed to your current colors and font.</p>
+
+  <p><strong>How do I delete my data?</strong>
+  Mantle keeps everything on your device, so deleting is direct:</p>
+  <ul>
+    <li>Swipe left on any phrase in your library to remove it. Starter phrases
+        are hidden (and can be restored from Settings → Library → Hidden
+        phrases); your own additions are deleted outright.</li>
+    <li>To wipe the whole library and start blank, go to Settings → Library →
+        Clear library.</li>
+    <li>To remove the app entirely, delete Mantle from your home screen.
+        iOS removes the app's container, including every phrase you've saved.</li>
+  </ul>
+  <p>There are no servers, no accounts, and no remote backups to clear.</p>
+
+  <div class="footer">
+    <p>
+      <a href="privacy.html">Privacy Policy</a>
+      &nbsp;·&nbsp;
+      © Mantle.
+    </p>
+  </div>
+</body>
+</html>
